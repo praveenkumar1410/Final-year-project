@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Covid Impact Analysis</title>
+  <meta charset="utf-8">
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+
+  <h1>Covid Impact Analysis</h1>
+
+  <h2>Spread of Covid-19</h2>
+
+  <div>
+    <h3>Countries with Highest Covid Cases</h3>
+    {{ bar1|safe }}
+  </div>
+
+  <div>
+    <h3>Countries with Highest Deaths</h3>
+    {{ bar2|safe }}
+  </div>
+
+  <div>
+    <h3>Percentage of Total Cases and Deaths</h3>
+    {{ pie|safe }}
+  </div>
+
+  <div>
+    <h3>Stringency Index during Covid-19</h3>
+    {{ bar3|safe }}
+  </div>
+
+  <h2>Covid-19 Impacts on Economy</h2>
+
+  <div>
+    <h3>GDP Per Capita Before Covid-19</h3>
+    {{ bar4|safe }}
+  </div>
+
+  <div>
+    <h3>GDP Per Capita During Covid-19</h3>
+    {{ bar5|safe }}
+  </div>
+
+  <div>
+    <h3>Human Development Index during Covid-19</h3>
+    {{ bar6|safe }}
+  </div>
+
+</body>
+</html>
